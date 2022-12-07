@@ -8,7 +8,7 @@ class GenderTest {
 
     @Test
     void testGender(){
-        var gender = Gender.MALE;
+        var gender = Gender.M;
         int o = gender.ordinal();
         var s = gender.toString();
         System.out.println("Ordinal : " + o);
